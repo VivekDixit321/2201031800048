@@ -1,0 +1,282 @@
+.frame-child {
+  height: 92px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  display: none;
+}
+.class-schedule2 {
+  margin: 0;
+  width: 270px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-6xl) var(--padding-6xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.tuesday {
+  margin: 0;
+}
+.am-power,
+.pm-hatha,
+.pm-vinyasa {
+  margin-bottom: 0;
+}
+.am-power-yoga-1200-pm-hat {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.tuesday-830-am-container {
+  width: 366px;
+  position: relative;
+  display: inline-block;
+}
+.friday {
+  margin: 0;
+}
+.am-restorative,
+.pm-hatha1,
+.pm-yin {
+  margin-bottom: 0;
+}
+.am-restorative-yoga-1200-pm {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.friday-900-am-container {
+  height: 160px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.friday-a-m-restorative-frame,
+.saturday-power-yoga-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.saturday-power-yoga-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 30px;
+}
+.friday-a-m-restorative-frame {
+  position: absolute;
+  top: 8px;
+  left: 366px;
+  width: 396px;
+  flex-direction: column;
+  gap: 92px 0;
+}
+.wednesday {
+  margin: 0;
+}
+.am-vinyasa,
+.pm-hatha2,
+.pm-power {
+  margin-bottom: 0;
+}
+.am-vinyasa-flow-1200-pm-p {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.wednesday-900-am-container {
+  width: 366px;
+  height: 160px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.saturday {
+  margin: 0;
+}
+.am-power1,
+.am-vinyasa1 {
+  margin-bottom: 0;
+}
+.am-power-yoga-1100-am-vin {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.saturday-930-am-container {
+  height: 160px;
+  width: 366px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.please-note-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.thursday-yin-vinyasa-frames {
+  position: absolute;
+  top: 0;
+  left: 743px;
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 69px 0;
+}
+.monday {
+  margin: 0;
+}
+.am-hatha,
+.pm-vinyasa1,
+.pm-yin1 {
+  margin-bottom: 0;
+}
+.am-hatha-yoga-1200-pm-vin {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.monday-900-am-container {
+  align-self: stretch;
+  position: relative;
+}
+.thursday {
+  margin: 0;
+}
+.am-yin,
+.pm-power1,
+.pm-vinyasa2 {
+  margin-bottom: 0;
+}
+.am-yin-yoga-1200-pm-vinya {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.thursday-830-am-container {
+  align-self: stretch;
+  height: 160px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sunday {
+  margin: 0;
+}
+.am-restorative1,
+.pm-yin2 {
+  margin-bottom: 0;
+}
+.am-restorative-yoga-1200-pm1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.sunday-1000-am-container {
+  align-self: stretch;
+  height: 160px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.minutes-only-note,
+.thursday-yin-vinyasa-friday-re {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thursday-yin-vinyasa-friday-re {
+  align-self: stretch;
+  gap: 41px 0;
+}
+.minutes-only-note {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 366px;
+  gap: 92px 0;
+}
+.tuesday-a-m-yoga-frame {
+  align-self: stretch;
+  height: 598px;
+  position: relative;
+}
+.please-note {
+  margin: 0;
+}
+.all-classes-are-60-minutes-unl1,
+.class-schedule-is-subject-to-c {
+  margin-bottom: 0;
+}
+.all-classes-are-60-minutes-unl {
+  margin: 0;
+  font-family: inherit;
+  font-size: var(--font-size-3xl);
+  padding-left: var(--padding-10xl);
+}
+.please-note-all-container {
+  width: 1134px;
+  height: 281px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: var(--font-size-11xl);
+}
+.class-schedule-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 35px 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.class-schedule1,
+.root-frame {
+  width: 1223px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.class-schedule1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-17xl);
+  gap: 22px 0;
+}

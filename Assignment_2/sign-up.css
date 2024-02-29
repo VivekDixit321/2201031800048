@@ -1,0 +1,420 @@
+.sign-up-page-child {
+  height: 92px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  display: none;
+  max-width: 100%;
+}
+.sign-up-page1 {
+  height: 47px;
+  width: 257px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.sign-up-page {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-18xl) var(--padding-9xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.first-name- {
+  position: relative;
+  text-transform: capitalize;
+}
+.password-input1 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 174px;
+}
+.password-input-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.confirm-input {
+  width: 526px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 17px;
+  max-width: 100%;
+}
+.last-name- {
+  position: relative;
+  text-transform: capitalize;
+}
+.confirm-input-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  min-width: 188px;
+}
+.confirm-input1 {
+  width: 526px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+  max-width: 100%;
+}
+.gender-,
+.phoneno- {
+  display: inline-block;
+}
+.phoneno- {
+  height: 73px;
+  position: relative;
+  text-transform: capitalize;
+}
+.gender- {
+  height: 74px;
+}
+.email-,
+.gender-,
+.password- {
+  position: relative;
+  text-transform: capitalize;
+}
+.phone-number-gender-email-fram {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  min-width: 195px;
+}
+.name-fields-frame {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  min-width: 174px;
+}
+.fields-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.fields-group-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  min-width: 174px;
+}
+.fields-group1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.fields-group2,
+.fields-group3 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 174px;
+}
+.frames-container,
+.grouped-fields-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grouped-fields-frame {
+  align-self: stretch;
+  gap: 33px 0;
+}
+.frames-container {
+  flex: 1;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 190px;
+}
+.personal-info-frame {
+  width: 526px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 39px;
+  max-width: 100%;
+}
+.confirm-password- {
+  position: relative;
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.confirm-input-item {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  width: 290px;
+  position: relative;
+}
+.confirm-input2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 36px;
+  max-width: 100%;
+}
+.first-name-input,
+.last-name-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.first-name-input {
+  align-self: stretch;
+  flex-direction: row;
+}
+.rectangle-div {
+  height: 44px;
+  width: 274px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-up2 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.group,
+.group-button {
+  display: flex;
+  flex-direction: row;
+}
+.group-button {
+  cursor: pointer;
+  border: 3px solid var(--color-black);
+  padding: var(--padding-10xs) var(--padding-55xl) var(--padding-11xs)
+    var(--padding-67xl);
+  background-color: var(--color-darkblue);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.group-button:hover {
+  background-color: var(--color-mediumslateblue);
+  border: 3px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.group {
+  width: 335px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.already-have-an {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+}
+.frame-child1 {
+  height: 44px;
+  width: 274px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-in2 {
+  position: relative;
+  z-index: 1;
+}
+.group-div {
+  width: 274px;
+  background-color: var(--color-darkblue);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-11xs) var(--padding-11xs);
+  white-space: nowrap;
+}
+.group1,
+.input-frames-group,
+.sign-in-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group1 {
+  width: 335px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.input-frames-group,
+.sign-in-frame {
+  flex-direction: column;
+}
+.sign-in-frame {
+  width: 645px;
+  align-items: center;
+  gap: 17px 0;
+  font-size: 40px;
+  color: var(--color-darkblue);
+}
+.input-frames-group {
+  width: 760px;
+  align-items: flex-end;
+  gap: 47px 0;
+}
+.input-frames-group-wrapper,
+.sign-up1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.input-frames-group-wrapper {
+  width: 854px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.sign-up1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 77px;
+  gap: 67px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .confirm-password-,
+  .email-,
+  .first-name-,
+  .gender-,
+  .last-name-,
+  .password-,
+  .phoneno- {
+    font-size: var(--font-size-5xl);
+  }
+  .confirm-input2 {
+    flex-wrap: wrap;
+    gap: 0 36px;
+  }
+  .already-have-an {
+    font-size: var(--font-size-13xl);
+  }
+  .input-frames-group {
+    gap: 47px 0;
+  }
+}
+@media screen and (max-width: 675px) {
+  .personal-info-frame {
+    gap: 0 39px;
+  }
+  .sign-up1 {
+    gap: 67px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email-,
+  .first-name-,
+  .gender-,
+  .last-name-,
+  .password-,
+  .phoneno- {
+    font-size: var(--font-size-lg);
+  }
+  .phone-number-gender-email-fram {
+    flex: 1;
+  }
+  .grouped-fields-frame {
+    gap: 33px 0;
+  }
+  .personal-info-frame {
+    flex-wrap: wrap;
+  }
+  .confirm-password- {
+    font-size: var(--font-size-lg);
+  }
+  .group-button {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .already-have-an {
+    font-size: var(--font-size-5xl);
+  }
+  .sign-up1 {
+    gap: 67px 0;
+  }
+}

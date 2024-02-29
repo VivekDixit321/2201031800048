@@ -1,0 +1,247 @@
+.frame-child3 {
+  height: 92px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  display: none;
+  max-width: 100%;
+}
+.contact-us2 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.have-a-question {
+  height: 108px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.feedback-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+}
+.our-address1 {
+  height: 83px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.address-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.building-ahmedabad1,
+.gujarat-23423451,
+.lorem-ipsum-florence1 {
+  margin: 0;
+}
+.lorem-ipsum-florence-container1 {
+  width: 467px;
+  height: 122px;
+  position: relative;
+  font-size: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.address-frame1 {
+  width: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-19xl);
+}
+.blank-line1,
+.main-555-123-4567customer,
+.phone-number {
+  margin: 0;
+}
+.phone-number-main-container {
+  position: relative;
+}
+.phone-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 42px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email {
+  position: relative;
+}
+.general-info-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 19px;
+}
+.customer-support-supportzenv,
+.general-inquiries-infozenvry {
+  margin: 0;
+}
+.general-inquiries-infozenvry-container {
+  height: 74px;
+  position: relative;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.operating-hours {
+  position: relative;
+}
+.monday-friday,
+.saturday-1000-am,
+.sunday-closed {
+  margin: 0;
+}
+.monday-friday-container {
+  height: 111px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.monday-to-friday-frame,
+.operating-hours-frame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.monday-to-friday-frame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-2xl);
+}
+.operating-hours-frame {
+  flex-direction: column;
+  gap: 19px 0;
+}
+.inquiry-frame {
+  width: 524px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.contact-us-frame,
+.contact-us1,
+.frame-b1,
+.inquiry-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-b1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 52px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.contact-us-frame,
+.contact-us1 {
+  box-sizing: border-box;
+}
+.contact-us-frame {
+  width: 1210px;
+  flex-direction: row;
+  padding: 0 39px;
+  max-width: 100%;
+}
+.contact-us1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-smi);
+  gap: 45px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .our-address1 {
+    font-size: var(--font-size-11xl);
+  }
+  .email,
+  .operating-hours,
+  .phone-number-main-container {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frame-b1 {
+    gap: 52px 0;
+  }
+  .contact-us1 {
+    gap: 45px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .have-a-question {
+    font-size: var(--font-size-2xl);
+  }
+  .our-address1 {
+    font-size: 23px;
+  }
+  .lorem-ipsum-florence-container1 {
+    font-size: var(--font-size-3xl);
+  }
+  .email,
+  .phone-number-main-container {
+    font-size: var(--font-size-lg);
+  }
+  .general-inquiries-infozenvry-container {
+    font-size: var(--font-size-mid);
+  }
+  .operating-hours {
+    font-size: var(--font-size-lg);
+  }
+  .monday-friday-container {
+    font-size: var(--font-size-mid);
+  }
+}

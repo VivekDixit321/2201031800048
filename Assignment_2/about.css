@@ -1,0 +1,197 @@
+.inner-frame-child {
+  height: 92px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  display: none;
+  max-width: 100%;
+}
+.about-zenvr-yoga {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.inner-frame {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 411px var(--padding-7xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.welcome-to-zenvr {
+  height: 80px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-d {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-17xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.our-vision {
+  position: relative;
+}
+.frame-f {
+  width: 1052px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-17xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.our-vision-is {
+  align-self: stretch;
+  height: 122px;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  bottom: 50px;
+}
+.our-instructors,
+.our-vision-is {
+  position: relative;
+}
+.text-i {
+  width: 1113px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.frame-b,
+.frame-c,
+.text-i {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-c {
+  width: 1216px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-b {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 15px 0 49px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.yoga-team-1 {
+  height: 549px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 601px;
+}
+.at-zenvr-were {
+  height: 178px;
+  width: 304px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about1,
+.frame-k {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-k {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 26px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.about1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 36px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .inner-frame {
+    padding-left: var(--padding-186xl);
+    padding-right: var(--padding-186xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .our-instructors,
+  .our-vision {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .inner-frame {
+    padding-left: var(--padding-83xl);
+    padding-right: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+  .frame-b {
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .yoga-team-1 {
+    min-width: 100%;
+  }
+  .about1 {
+    gap: 36px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .inner-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .at-zenvr-were,
+  .our-instructors,
+  .our-vision,
+  .our-vision-is,
+  .welcome-to-zenvr {
+    font-size: var(--font-size-lgi);
+  }
+}
+
+#username_text{
+  position: relative;
+  right: 500px;
+}

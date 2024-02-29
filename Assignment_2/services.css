@@ -1,0 +1,240 @@
+.service-frame-child {
+  height: 92px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkblue);
+  display: none;
+  max-width: 100%;
+}
+.our-classes {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.service-frame {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xl) var(--padding-2xl) var(--padding-7xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.class-offerings {
+  flex: 1;
+  position: relative;
+}
+.class-offerings-frame {
+  width: 276px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.blank-line {
+  margin: 0;
+}
+.hatha-yoga1 {
+  margin-bottom: 0;
+}
+.hatha-yoga {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.hatha-yoga-is {
+  margin-bottom: 0;
+}
+.hatha-yoga-is-a-gentle-and-fou {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.vinyasa-flow1 {
+  margin-bottom: 0;
+}
+.vinyasa-flow {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.vinyasa-flow-is {
+  margin-bottom: 0;
+}
+.vinyasa-flow-is-a-dynamic-and {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.power-yoga1 {
+  margin-bottom: 0;
+}
+.power-yoga {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.power-yoga-is {
+  margin-bottom: 0;
+}
+.power-yoga-is-an-energizing-an {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.yin-yoga1 {
+  margin-bottom: 0;
+}
+.yin-yoga {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.yin-yoga-is {
+  margin-bottom: 0;
+}
+.yin-yoga-is-a-slow-paced-and-m {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.restorative-yoga1 {
+  margin-bottom: 0;
+}
+.restorative-yoga,
+.restorative-yoga-is-a-gentle-a {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.hatha-yoga-hatha-container {
+  align-self: stretch;
+  height: 578px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.hatha-yoga-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px 0;
+}
+.check-out-our,
+.class-schedule {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.class-schedule {
+  width: 241px;
+  height: 51px;
+}
+.check-out-our {
+  align-self: stretch;
+  height: 172px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.third-service-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px 0;
+}
+.checkin-frame,
+.class-services-frame,
+.third-service-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkin-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.class-services-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.second-service-frame,
+.services1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.second-service-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi) 0 9px;
+  max-width: 100%;
+}
+.services1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 6px;
+  gap: 18px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .class-offerings,
+  .class-schedule {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .class-services-frame {
+    gap: 80px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .check-out-our,
+  .class-offerings,
+  .class-schedule,
+  .hatha-yoga-hatha-container {
+    font-size: var(--font-size-lgi);
+  }
+  .class-services-frame {
+    gap: 80px 0;
+  }
+}
